@@ -1,0 +1,268 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Speeed Bike",
+      "price": 1005,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/09/Tumbleweed-Stargazer-Review-Video_00.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Tumbleweed Stargazer",
+      "price": 1099,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_41.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Gray Bike",
+      "price": 1595,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_42.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Stargazer Gray",
+      "price": 1595,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_43.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yellow Bike",
+      "price": 1595,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://media.theradavist.com/uploads/2018/05/Peppers-Tumbleweed-Prospector-Rohloff-Peru-Divide-Touring-Bike-1.jpg?fit=2000,2000&quality=75"
+    },
+    {
+      "id": 6,
+      "title": "Stargazer Yellow",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://cyclingtips.com/wp-content/uploads/2021/11/Santa-Cruz-Highball-XC-gravel-bikes-of-the-bunch-cyclingtips-Alex-J-Wissmann-10.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Green Bike",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/21/2022/04/Cairn-Brave-01-e2d87a6.jpg?quality=90&resize=768,574"
+    },
+    {
+      "id": 8,
+      "title": "Blue Bike",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://s14761.pcdn.co/wp-content/uploads/sites/3/2021/11/Trek-Supercaliber-9.8-GX-Test-Review-Gravel-Mountainbike-2021-069-1140x760.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Bike for Mounten",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://cloudinary.pondigital.solutions/pon-digital-solutions/image/upload/fl_sanitize/focus/gene-cms/f/o/focus-bikes-bosch-e-mtb-e-is-for-everyone-jam_-sun_1_4.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Bike for raise",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_43.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Amazing Bike",
+      "price": 1490,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://i.pinimg.com/736x/46/66/f9/4666f969baeb85a616c1deb57119b82e--carousel-designs-pod.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Gray Bike",
+      "price": 1595,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_41.jpg"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Buffalo Burger",
+      "description": "Italian cuisine is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since the antiquity, and later spread around the world together with waves of Italian diaspora.",
+      "typeOfFood": "italian",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_1280.jpg",
+      "rate": "5"
+    },
+    {
+      "id": 2,
+      "name": "Macdonalds",
+      "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
+      "typeOfFood": "japanese",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_1280.jpg",
+      "rate": 3.9
+    },
+    {
+      "id": 3,
+      "name": "Burger King",
+      "description": "The Max was where you went after school and I desperately wanted to be there – even if it meant having to watch creepy Max’s magic tricks.",
+      "typeOfFood": "american",
+      "image": "https://cdn.pixabay.com/photo/2017/01/24/03/54/urban-2004494_1280.jpg",
+      "rate": 4.9
+    },
+    {
+      "id": 4,
+      "name": "Heart Attack",
+      "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
+      "typeOfFood": "japanese",
+      "image": "https://cdn.pixabay.com/photo/2016/11/21/16/02/outdoor-dining-1846137_1280.jpg",
+      "rate": "5"
+    },
+    {
+      "id": 5,
+      "name": "La Tagliatella",
+      "description": "Italian cuisine is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since the antiquity, and later spread around the world together with waves of Italian diaspora.",
+      "typeOfFood": "italian",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_1280.jpg",
+      "rate": 3.5
+    },
+    {
+      "id": 6,
+      "name": "sakura restaurant",
+      "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
+      "typeOfFood": "japanese",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_1280.jpg",
+      "rate": 5
+    },
+    {
+      "id": 7,
+      "name": "The Max",
+      "description": "The Max was where you went after school and I desperately wanted to be there – even if it meant having to watch creepy Max’s magic tricks.",
+      "typeOfFood": "american",
+      "image": "https://cdn.pixabay.com/photo/2017/01/24/03/54/urban-2004494_1280.jpg",
+      "rate": 4.3
+    },
+    {
+      "id": 8,
+      "name": "sakura restaurant",
+      "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
+      "typeOfFood": "japanese",
+      "image": "https://cdn.pixabay.com/photo/2016/11/21/16/02/outdoor-dining-1846137_1280.jpg",
+      "rate": 2.1
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Triple",
+      "priceBefore": 190,
+      "price": 105,
+      "restaurantId": 1,
+      "description": "3 Beef patties with 3 layers of cheddar cheese and our creamy..",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F05706e0e9313fa2972b1fe878f17b990.png&w=384&q=75"
+    },
+    {
+      "id": 2,
+      "title": "Animal style",
+      "priceBefore": 190,
+      "price": 109,
+      "restaurantId": 2,
+      "description": "Crispy onion rings, topped with semi dijon mustard, creamy Buffalo sauce",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F36db94ef11461ebb6d1712215b530fb5.png&w=384&q=75"
+    },
+    {
+      "id": 3,
+      "title": "The Rastafari",
+      "priceBefore": 190,
+      "price": 155,
+      "restaurantId": 1,
+      "description": "Crispy jalapeño bites, on a grilled burger patty with creamy Buffalo sauce.",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fff183e68e89cbe5674dfb3c8e7b1a26b.png&w=384&q=75"
+    },
+    {
+      "id": 4,
+      "title": "Blue Cheese",
+      "priceBefore": 190,
+      "restaurantId": 3,
+      "price": 159,
+      "description": "Crumbles of creamy French blue cheese top our famous burger patty",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+    },
+    {
+      "id": 5,
+      "title": "The Secret Burger",
+      "priceBefore": 190,
+      "price": 140,
+      "restaurantId": 1,
+      "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
+    },
+    {
+      "id": 6,
+      "title": "Triple",
+      "priceBefore": 190,
+      "price": 105,
+      "restaurantId": 1,
+      "description": "3 Beef patties with 3 layers of cheddar cheese and our creamy..",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F05706e0e9313fa2972b1fe878f17b990.png&w=384&q=75"
+    },
+    {
+      "id": 7,
+      "title": "Animal style",
+      "priceBefore": 190,
+      "price": 109,
+      "restaurantId": 2,
+      "description": "Crispy onion rings, topped with semi dijon mustard, creamy Buffalo sauce",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F36db94ef11461ebb6d1712215b530fb5.png&w=384&q=75"
+    },
+    {
+      "id": 8,
+      "title": "The Rastafari",
+      "priceBefore": 190,
+      "price": 155,
+      "restaurantId": 1,
+      "description": "Crispy jalapeño bites, on a grilled burger patty with creamy Buffalo sauce.",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fff183e68e89cbe5674dfb3c8e7b1a26b.png&w=384&q=75"
+    },
+    {
+      "id": 9,
+      "title": "Blue Cheese",
+      "priceBefore": 190,
+      "restaurantId": 3,
+      "price": 159,
+      "description": "Crumbles of creamy French blue cheese top our famous burger patty",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+    },
+    {
+      "id": 10,
+      "title": "The Secret Burger",
+      "priceBefore": 190,
+      "price": 140,
+      "restaurantId": 1,
+      "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
+    }
+    ,
+    {
+      "id": 11,
+      "title": "Blue Cheese",
+      "restaurantId": 3,
+      "priceBefore": 190,
+      "price": 159,
+      "description": "Crumbles of creamy French blue cheese top our famous burger patty",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+    },
+    {
+      "id": 12,
+      "title": "The Secret Burger",
+      "price": 140,
+      "priceBefore": 190,
+      "restaurantId": 1,
+      "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
+      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
+    }
+  ],
+  "orders":[],
+  "cart": []
+
+}
