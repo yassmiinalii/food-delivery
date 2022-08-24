@@ -9,17 +9,28 @@ let theme = createTheme({
       dark: colors.orange[800],
     },
     secondary: {
-      main: "#F7F7F7",
+      main: "#000000",
     },
   },
   typography: {
     fontFamily:'Poppins, sans-serif',
+    h1: {
+      textTransform: "uppercase",
+      fontWeight: '500'
+    },
+    h2: {
+      textTransform: "uppercase",
+      fontWeight: '500'
+    },
+    h3: {
+      textTransform: "uppercase",
+      fontWeight: '500'
+    }
   },
 
 });
 
 
-// theme = responsiveFontSizes(theme);
 
 export { theme };
 
