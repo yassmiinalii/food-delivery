@@ -47,7 +47,7 @@ const Offers = () => {
             _DATA.currentData().map((offer) => (
               <Grid key={offer.id} item xs={12} sm={6} md={4} lg={3}>
                 <FoodItem {...offer}></FoodItem>
-                {console.log(offer)}
+          
               </Grid>
             ))
           ) : (

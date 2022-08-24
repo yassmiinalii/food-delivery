@@ -1,90 +1,4 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "title": "Speeed Bike",
-      "price": 1005,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/09/Tumbleweed-Stargazer-Review-Video_00.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Tumbleweed Stargazer",
-      "price": 1099,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_41.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Gray Bike",
-      "price": 1595,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_42.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Stargazer Gray",
-      "price": 1595,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_43.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Yellow Bike",
-      "price": 1595,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://media.theradavist.com/uploads/2018/05/Peppers-Tumbleweed-Prospector-Rohloff-Peru-Divide-Touring-Bike-1.jpg?fit=2000,2000&quality=75"
-    },
-    {
-      "id": 6,
-      "title": "Stargazer Yellow",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://cyclingtips.com/wp-content/uploads/2021/11/Santa-Cruz-Highball-XC-gravel-bikes-of-the-bunch-cyclingtips-Alex-J-Wissmann-10.jpg"
-    },
-    {
-      "id": 7,
-      "title": "Green Bike",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://images.immediate.co.uk/production/volatile/sites/21/2022/04/Cairn-Brave-01-e2d87a6.jpg?quality=90&resize=768,574"
-    },
-    {
-      "id": 8,
-      "title": "Blue Bike",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://s14761.pcdn.co/wp-content/uploads/sites/3/2021/11/Trek-Supercaliber-9.8-GX-Test-Review-Gravel-Mountainbike-2021-069-1140x760.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Bike for Mounten",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://cloudinary.pondigital.solutions/pon-digital-solutions/image/upload/fl_sanitize/focus/gene-cms/f/o/focus-bikes-bosch-e-mtb-e-is-for-everyone-jam_-sun_1_4.jpg"
-    },
-    {
-      "id": 10,
-      "title": "Bike for raise",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_43.jpg"
-    },
-    {
-      "id": 11,
-      "title": "Amazing Bike",
-      "price": 1490,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://i.pinimg.com/736x/46/66/f9/4666f969baeb85a616c1deb57119b82e--carousel-designs-pod.jpg"
-    },
-    {
-      "id": 12,
-      "title": "Gray Bike",
-      "price": 1595,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://bikepacking.com/wp-content/uploads/2021/08/Tumbleweed-Stargazer-Review_41.jpg"
-    }
-  ],
   "restaurants": [
     {
       "id": 1,
@@ -92,7 +6,7 @@
       "description": "Italian cuisine is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since the antiquity, and later spread around the world together with waves of Italian diaspora.",
       "typeOfFood": "italian",
       "image": "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_1280.jpg",
-      "rate": "5"
+      "rate": 5
     },
     {
       "id": 2,
@@ -116,7 +30,7 @@
       "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.",
       "typeOfFood": "japanese",
       "image": "https://cdn.pixabay.com/photo/2016/11/21/16/02/outdoor-dining-1846137_1280.jpg",
-      "rate": "5"
+      "rate": 5
     },
     {
       "id": 5,
@@ -153,116 +67,143 @@
   ],
   "offers": [
     {
-      "id": 1,
+      "id": 112,
       "title": "Triple",
       "priceBefore": 190,
       "price": 105,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "3 Beef patties with 3 layers of cheddar cheese and our creamy..",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F05706e0e9313fa2972b1fe878f17b990.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2020/03/21/11/17/burger-4953465_1280.jpg"
     },
     {
-      "id": 2,
+      "id": 222,
       "title": "Animal style",
       "priceBefore": 190,
       "price": 109,
       "restaurantId": 2,
+      "resturantName": "Macdonalds",
       "description": "Crispy onion rings, topped with semi dijon mustard, creamy Buffalo sauce",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F36db94ef11461ebb6d1712215b530fb5.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2019/11/09/17/02/burger-4614022_1280.jpg"
     },
     {
-      "id": 3,
+      "id": 333,
       "title": "The Rastafari",
       "priceBefore": 190,
       "price": 155,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "Crispy jalapeño bites, on a grilled burger patty with creamy Buffalo sauce.",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fff183e68e89cbe5674dfb3c8e7b1a26b.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996_1280.jpg"
     },
     {
-      "id": 4,
+      "id": 414,
       "title": "Blue Cheese",
       "priceBefore": 190,
       "restaurantId": 3,
+      "resturantName": "Burger King",
       "price": 159,
       "description": "Crumbles of creamy French blue cheese top our famous burger patty",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2016/03/26/23/19/hamburger-1281855_1280.jpg"
     },
     {
-      "id": 5,
+      "id": 515,
       "title": "The Secret Burger",
       "priceBefore": 190,
       "price": 140,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2019/04/22/08/37/burger-4145977_1280.jpg"
     },
     {
-      "id": 6,
+      "id": 616,
       "title": "Triple",
       "priceBefore": 190,
       "price": 105,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "3 Beef patties with 3 layers of cheddar cheese and our creamy..",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F05706e0e9313fa2972b1fe878f17b990.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2017/01/31/08/32/meatballs-2023247_1280.jpg"
     },
     {
-      "id": 7,
+      "id": 71,
       "title": "Animal style",
       "priceBefore": 190,
       "price": 109,
       "restaurantId": 2,
+      "resturantName": "Macdonalds",
       "description": "Crispy onion rings, topped with semi dijon mustard, creamy Buffalo sauce",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F36db94ef11461ebb6d1712215b530fb5.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2019/04/24/12/11/burger-4152013_1280.jpg"
     },
     {
-      "id": 8,
+      "id": 81,
       "title": "The Rastafari",
       "priceBefore": 190,
       "price": 155,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "Crispy jalapeño bites, on a grilled burger patty with creamy Buffalo sauce.",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fff183e68e89cbe5674dfb3c8e7b1a26b.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2017/01/13/03/02/burgers-1976198_1280.jpg"
     },
     {
-      "id": 9,
+      "id": 911,
       "title": "Blue Cheese",
       "priceBefore": 190,
       "restaurantId": 3,
+      "resturantName": "Burger King",
       "price": 159,
       "description": "Crumbles of creamy French blue cheese top our famous burger patty",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2016/05/25/10/43/power-1414427_1280.jpg"
     },
     {
-      "id": 10,
+      "id": 3014,
       "title": "The Secret Burger",
       "priceBefore": 190,
       "price": 140,
       "restaurantId": 1,
+      "resturantName": "Buffalo Burger",
       "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
-    }
-    ,
+      "image": "https://cdn.pixabay.com/photo/2019/11/09/17/02/burger-4614022_1280.jpg"
+    },
     {
-      "id": 11,
+      "id": 1014,
       "title": "Blue Cheese",
       "restaurantId": 3,
+      "resturantName": "Burger King",
       "priceBefore": 190,
       "price": 159,
       "description": "Crumbles of creamy French blue cheese top our famous burger patty",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2015/07/30/18/23/burger-868145_1280.jpg"
     },
     {
-      "id": 12,
+      "id": 1024,
       "title": "The Secret Burger",
       "price": 140,
       "priceBefore": 190,
       "restaurantId": 1,
+      "resturantName": "Burger King",
       "description": "Flamed burger patty with crispy onion and BBQ sauce with caramelized onion,..",
-      "image": "https://thebuffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Ff887f2ac7f1212f18ade68c61ca6075c.png&w=384&q=75"
+      "image": "https://cdn.pixabay.com/photo/2017/01/29/16/23/burger-2018627_1280.jpg"
     }
   ],
-  "orders":[],
-  "cart": []
-
+  "orders": [],
+  "cart": [
+    {
+      "id": 112,
+      "title": "Triple",
+      "price": 105,
+      "resturantName": "Buffalo Burger",
+      "image": "https://cdn.pixabay.com/photo/2020/03/21/11/17/burger-4953465_1280.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 333,
+      "title": "The Rastafari",
+      "price": 155,
+      "resturantName": "Buffalo Burger",
+      "image": "https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996_1280.jpg",
+      "quantity": 1
+    }
+  ]
 }

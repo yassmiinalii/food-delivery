@@ -18,7 +18,8 @@ const Cart = () => {
       dispatch({ type: GET_ALL_CART_PRODUCTS, payload: response.data });
     });
   });
- 
+
+  
   let cartIsEmpty = cartProductsList.length;
 
   return (

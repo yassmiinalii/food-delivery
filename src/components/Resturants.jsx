@@ -21,7 +21,6 @@ const Resturants = () => {
     <Box component="section" my={12}>
       <Container>
         <Typography variant="h3" mb={4}>
-          {" "}
           Resturants
         </Typography>
         <Grid container spacing={4} >

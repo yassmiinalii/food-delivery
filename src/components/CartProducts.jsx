@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
-import axios from "axios";
 import {
   Grid,
   TableContainer,
@@ -10,9 +9,6 @@ import {
   TableBody,
   TableRow,
   Paper,
-  IconButton,
-  Typography,
-  Stack,
   styled,
 } from "@mui/material";
 
@@ -20,7 +16,6 @@ import { tableCellClasses } from "@mui/material/TableCell";
 import CartProduct from "./CartProduct";
 
 const CartProducts = () => {
-
   const cartProductsList = useSelector((state) => state.cartProducts);
   const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -29,7 +24,6 @@ const CartProducts = () => {
     },
   }));
 
-  
   return (
     <Grid className="products-Container" item xs={12} lg={8}>
       <TableContainer component={Paper}>
@@ -45,8 +39,7 @@ const CartProducts = () => {
           <TableBody>
             {cartProductsList ? (
               cartProductsList.map((product) => (
-                <CartProduct  key={product.id} {...product}></CartProduct>
-              
+                <CartProduct key={product.id} {...product}></CartProduct>
               ))
             ) : (
               <dive> looading </dive>

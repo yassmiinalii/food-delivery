@@ -6,8 +6,7 @@ const CartSummary = () => {
     const cartProductsList = useSelector((state) => state.cartProducts);
     const sumTotalTest = useMemo(( ) =>{
         let sum = 0;
-        if (cartProductsList) {cartProductsList.map((p) => { return sum += p.price })} 
-        
+        if (cartProductsList) {cartProductsList.map((p) => { return sum += p.price })}   
         return sum; 
     },[cartProductsList])
   return (

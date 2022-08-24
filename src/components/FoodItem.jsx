@@ -1,4 +1,4 @@
-import React, {useCallback} from "react";
+import React, { useCallback } from "react";
 import NumberFormat from "react-number-format";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import {
@@ -10,10 +10,7 @@ import {
   Button,
   Stack,
 } from "@mui/material";
-import { useDispatch } from "react-redux";
-import { ADD_CART_PRODUCT } from "../redux/actions/cartActions";
 import axios from "axios";
-
 
 const cardReStyle = {
   boxShadow: "none",
@@ -23,29 +20,23 @@ const cardReStyle = {
 
 const FoodItem = (props) => {
   const { id, title, priceBefore, price, resturantName, image } = props;
-  const dispatch = useDispatch();
-  	// dispatch(ADD_CART_PRODUCT({id, title, price, resturantName, image, quantity:1 }));
-
-  const handleClickAddToCart = useCallback(
-		() => {
-      axios.post('http://localhost:3000/cart',{
+  const handleClickAddToCart = useCallback(() => {
+    axios
+      .post("http://localhost:3000/cart", {
         id: id,
-      title: title,
-      price: price,
-      resturantName: resturantName,
-      image: image,
-      quantity: 1
-      }).then(function (response) {
+        title: title,
+        price: price,
+        resturantName: resturantName,
+        image: image,
+        quantity: 1,
+      })
+      .then(function (response) {
         console.log(response.status);
       })
       .catch(function (error) {
         console.log(error);
-      });   
-		},
-		[id,title,price,resturantName,image]
-	);
-
- 
+      });
+  }, [id, title, price, resturantName, image]);
 
   return (
     <Card sx={cardReStyle}>
@@ -91,7 +82,7 @@ const FoodItem = (props) => {
           </Typography>
         </Stack>
         <Button
-        onClick={handleClickAddToCart}
+          onClick={handleClickAddToCart}
           sx={{ justifyContent: "space-between", boxShadow: "none" }}
           variant="contained"
           endIcon={<AddShoppingCartIcon />}

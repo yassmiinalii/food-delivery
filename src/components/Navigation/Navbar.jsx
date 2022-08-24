@@ -7,14 +7,12 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 
 const pages = [
   {
@@ -35,27 +33,17 @@ const style = {
   textDecoration: "none",
   color: "white",
 };
-// const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
   const cartProductsList = useSelector((state) => state.cartProducts);
-  console.log(cartProductsList);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -67,6 +55,7 @@ const ResponsiveAppBar = () => {
               <img src={logo} alt="logo" />
             </Link>
           </Box>
+
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -108,6 +97,7 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
+
           <Box sx={{ display: { xs: "flex", md: "none" }, mr: 1, flexGrow: 1 }}>
             <img src={logo} alt="logo" />
           </Box>
@@ -129,40 +119,14 @@ const ResponsiveAppBar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            {/* <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu> */}
             <IconButton color="primary">
-            {cartProductsList.length}
-              <ShoppingCartIcon />
-             
+              <Link to="/cart" style={style}>
+                {cartProductsList.length}
+                <ShoppingCartIcon />
+              </Link>
             </IconButton>
           </Box>
+          
         </Toolbar>
       </Container>
     </AppBar>

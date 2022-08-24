@@ -1,4 +1,3 @@
-// import './App.css';
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import Footer from "../components/Navigation/Footer";
 import Navbar from "../components/Navigation/Navbar";
@@ -7,6 +6,8 @@ import { Provider } from "react-redux";
 import store from "../redux/store";
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CardSkeltonGroup from "../components/CardSkeltonGroup";
+
 
 
 function App() {
@@ -17,8 +18,7 @@ function App() {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        
-        <Suspense fallback={<div>Loaaaaaading.....</div>}>
+        <Suspense fallback={ <CardSkeltonGroup/>}>
           <BrowserRouter>
           <Navbar/>
             <Routes>
